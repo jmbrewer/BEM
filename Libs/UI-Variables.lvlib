@@ -4,7 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="UI Stop" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
@@ -12,7 +13,7 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>

@@ -5,17 +5,18 @@
 	<Property Name="varPersistentID:{04C07018-0CED-4FB3-BC74-A4FFEE15A4FD}" Type="Ref">/bem-rt/Chassis/Mod4/DO7</Property>
 	<Property Name="varPersistentID:{076D478F-9580-41B2-A1C0-C8F71E6F49E6}" Type="Ref">/bem-rt/RT-Variables.lvlib/Shutter-NP</Property>
 	<Property Name="varPersistentID:{07DE3A66-8EEA-43AE-9190-9493BDA08BAA}" Type="Ref">/bem-rt/Chassis/Mod3/SciShtPol</Property>
-	<Property Name="varPersistentID:{084BD7F0-3108-4426-B36D-F3A31576FC1A}" Type="Ref">/My Computer/Libs/RT-Variables.lvlib/OpMode-NP</Property>
 	<Property Name="varPersistentID:{0C452FD0-124C-4E15-BEE8-F97F2788FC93}" Type="Ref">/bem-rt/Chassis/Mod4/SimFltSht</Property>
 	<Property Name="varPersistentID:{16C1F841-6673-4B4B-BF3B-71DCA640A85E}" Type="Ref">/bem-rt/Chassis/Mod2/DIO17</Property>
 	<Property Name="varPersistentID:{1BE1F43A-6774-4905-960F-61920CB0A818}" Type="Ref">/bem-rt/Chassis/Mod2/DIO12</Property>
-	<Property Name="varPersistentID:{20CFF22E-5D3E-419A-A9D3-B8C33106ED8A}" Type="Ref">/bem-rt/Chassis/Mod2/DIO0</Property>
+	<Property Name="varPersistentID:{1E9CBFB3-844B-48A9-9C1C-56BBBEFB6DB2}" Type="Ref">/bem-rt/RT-Variables.lvlib/Dummy Trigger</Property>
+	<Property Name="varPersistentID:{20CFF22E-5D3E-419A-A9D3-B8C33106ED8A}" Type="Ref">/bem-rt/Chassis/Mod2/TharMirOut</Property>
 	<Property Name="varPersistentID:{343BF05B-1182-4FD7-86D5-82E1550E0F18}" Type="Ref">/bem-rt/Chassis/Mod2/DIO29</Property>
+	<Property Name="varPersistentID:{34BB3BA2-5475-45F8-A64A-03AB3CBB3B1F}" Type="Ref">/bem-rt/RT-Variables.lvlib/Update?</Property>
 	<Property Name="varPersistentID:{351933AA-C24E-4CD1-86F3-FE89E8A67460}" Type="Ref">/bem-rt/RT-Variables.lvlib/OpMode-NP</Property>
 	<Property Name="varPersistentID:{36F29883-7C70-4483-A8C3-D79188A94303}" Type="Ref">/bem-rt/Chassis/Mod2/DIO10</Property>
 	<Property Name="varPersistentID:{37BA9FF9-AF33-4218-A687-66C04349E7B9}" Type="Ref">/bem-rt/Chassis/Mod4/LFCSimSht</Property>
 	<Property Name="varPersistentID:{38C479DA-57A8-43FE-888B-BAFF6A35D283}" Type="Ref">/bem-rt/Chassis/Mod2/DIO6</Property>
-	<Property Name="varPersistentID:{3D009E21-5EA0-4C67-B174-2AC967BF5375}" Type="Ref">/bem-rt/Chassis/Mod2/DIO1</Property>
+	<Property Name="varPersistentID:{3D009E21-5EA0-4C67-B174-2AC967BF5375}" Type="Ref">/bem-rt/Chassis/Mod2/ExtFlatMirOut</Property>
 	<Property Name="varPersistentID:{401C906D-FD16-4179-AA51-1B45CDB1716A}" Type="Ref">/bem-rt/Chassis/Mod2/DIO7</Property>
 	<Property Name="varPersistentID:{43CA40C1-B79A-4FC4-966D-11F81812CE23}" Type="Ref">/bem-rt/Chassis/Mod2/DIO16</Property>
 	<Property Name="varPersistentID:{4DD1AF64-2F20-4BD0-A0B3-3F399FC09067}" Type="Ref">/bem-rt/Chassis/Mod3/DO6</Property>
@@ -28,16 +29,16 @@
 	<Property Name="varPersistentID:{78FC7EE0-9591-4D33-B118-822D2C805AA7}" Type="Ref">/bem-rt/Chassis/Mod3/DO7</Property>
 	<Property Name="varPersistentID:{79CD0C98-045A-4CEC-A2ED-4AD211AD313F}" Type="Ref">/bem-rt/Chassis/Mod4/SolarSht</Property>
 	<Property Name="varPersistentID:{7A088893-D4DE-4206-A398-196211CDF61C}" Type="Ref">/bem-rt/Chassis/Mod2/DIO31</Property>
-	<Property Name="varPersistentID:{8440635E-E3C1-4898-A940-4971FB02B6DD}" Type="Ref">/My Computer/Libs/RT-Variables.lvlib/Shutter-NP</Property>
 	<Property Name="varPersistentID:{84DDAA2B-EF1B-4AA9-9172-12F1B93F3681}" Type="Ref">/bem-rt/Chassis/Mod2/DIO23</Property>
 	<Property Name="varPersistentID:{86352698-69F9-43BD-BC19-6C11396F3E4B}" Type="Ref">/bem-rt/Chassis/Mod4/DO4</Property>
 	<Property Name="varPersistentID:{95E494DA-8184-4B2A-A244-C63F56F49421}" Type="Ref">/bem-rt/Chassis/Mod4/DO5</Property>
 	<Property Name="varPersistentID:{95E6CAB7-875F-4BE1-9503-A9FEC0D73D2F}" Type="Ref">/bem-rt/Chassis/Mod2/DIO22</Property>
 	<Property Name="varPersistentID:{9CC7A64F-662D-4C2D-B4B0-A775A9E2EDED}" Type="Ref">/bem-rt/Chassis/Mod3/DO4</Property>
 	<Property Name="varPersistentID:{A1921D7A-8703-4C28-966D-CD6B28C40CF4}" Type="Ref">/bem-rt/Chassis/Mod2/DIO21</Property>
-	<Property Name="varPersistentID:{A5E287A0-73F9-4ABC-BE73-578BBE200EBE}" Type="Ref">/bem-rt/Chassis/Mod2/DIO2</Property>
-	<Property Name="varPersistentID:{A732E533-C3D3-419B-8795-A22696F92FE0}" Type="Ref">/bem-rt/Chassis/Mod2/DIO3</Property>
-	<Property Name="varPersistentID:{A77498EE-D2A5-4228-BA44-AF0D417DB7BC}" Type="Ref">/bem-rt/Chassis/Mod2/DIO5</Property>
+	<Property Name="varPersistentID:{A5D40E91-9487-465E-92F4-5FEF8E9094B4}" Type="Ref">/bem-rt/RT-Variables.lvlib/RT-Stop</Property>
+	<Property Name="varPersistentID:{A5E287A0-73F9-4ABC-BE73-578BBE200EBE}" Type="Ref">/bem-rt/Chassis/Mod2/SolarMirOut</Property>
+	<Property Name="varPersistentID:{A732E533-C3D3-419B-8795-A22696F92FE0}" Type="Ref">/bem-rt/Chassis/Mod2/ExpMetTrigOut</Property>
+	<Property Name="varPersistentID:{A77498EE-D2A5-4228-BA44-AF0D417DB7BC}" Type="Ref">/bem-rt/Chassis/Mod2/ExpMetFrmIn</Property>
 	<Property Name="varPersistentID:{A9D0A8E1-DB6E-4932-8849-463B4A1A27AC}" Type="Ref">/bem-rt/Chassis/Mod2/DIO18</Property>
 	<Property Name="varPersistentID:{AD16FF8A-6BF2-4C64-90CF-AE50AE3E6F54}" Type="Ref">/My Computer/Libs/UI-Variables.lvlib/UI Stop</Property>
 	<Property Name="varPersistentID:{B13919C1-BCDD-4CBB-9F55-B6442A3ECDA7}" Type="Ref">/bem-rt/Chassis/Mod3/DO5</Property>
@@ -45,7 +46,7 @@
 	<Property Name="varPersistentID:{C149C1E5-C462-441E-8B82-09C804478161}" Type="Ref">/bem-rt/Chassis/Mod2/DIO8</Property>
 	<Property Name="varPersistentID:{C1ECA06C-8677-45E4-9D37-85E97D571DC7}" Type="Ref">/bem-rt/Chassis/Mod2/DIO14</Property>
 	<Property Name="varPersistentID:{C2A510AF-1A19-42EE-AB0D-A45442C77ABC}" Type="Ref">/bem-rt/Chassis/Mod2/DIO27</Property>
-	<Property Name="varPersistentID:{CD87CEF9-362F-4A3D-8A58-13BAD75A804A}" Type="Ref">/bem-rt/Chassis/Mod2/DIO4</Property>
+	<Property Name="varPersistentID:{CD87CEF9-362F-4A3D-8A58-13BAD75A804A}" Type="Ref">/bem-rt/Chassis/Mod2/DetTrigIn</Property>
 	<Property Name="varPersistentID:{CF7736C5-BD84-4F8C-9FFE-C07F4C206B7C}" Type="Ref">/bem-rt/Chassis/Mod3/SciShtPwr</Property>
 	<Property Name="varPersistentID:{CFA484A1-F2C9-44ED-97E1-9E3DB446C5B6}" Type="Ref">/bem-rt/Chassis/Mod2/DIO26</Property>
 	<Property Name="varPersistentID:{DE94D6D8-0BA6-41D4-96AE-A0F1E9FA1B50}" Type="Ref">/bem-rt/Chassis/Mod2/DIO15</Property>
@@ -53,6 +54,7 @@
 	<Property Name="varPersistentID:{ECEE9C0A-6930-4BAC-A6F8-0F5FD78F5FD0}" Type="Ref">/bem-rt/Chassis/Mod3/DO3</Property>
 	<Property Name="varPersistentID:{EF5792F7-8997-4886-BDB9-B6DBCF8AE766}" Type="Ref">/bem-rt/Chassis/Mod2/DIO13</Property>
 	<Property Name="varPersistentID:{F594A17D-6BD4-4BE7-BA47-621F45CE524D}" Type="Ref">/bem-rt/Chassis/Mod4/DO6</Property>
+	<Property Name="varPersistentID:{FF1BCF94-AC70-4018-8F16-6D2C55392A5C}" Type="Ref">/bem-rt/RT-Variables.lvlib/Shutter-Control</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -66,12 +68,15 @@
 		<Item Name="Calibration" Type="Folder" URL="../Calibration">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Libs" Type="Folder" URL="../Libs">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Libs" Type="Folder">
+			<Item Name="UI-Variables.lvlib" Type="Library" URL="../Libs/UI-Variables.lvlib"/>
+		</Item>
+		<Item Name="Shutters" Type="Folder">
+			<Item Name="ShutterManual.vi" Type="VI" URL="../Shutters/UI/ShutterManual.vi"/>
 		</Item>
 		<Item Name="FTDI_Parse_Error_Code.vi" Type="VI" URL="../FTDI/FTDI_Parse_Error_Code.vi"/>
-		<Item Name="MainUI.vi" Type="VI" URL="../Controls/MainUI.vi"/>
-		<Item Name="Manual Shutter.ctl" Type="VI" URL="../Libs/Manual Shutter.ctl"/>
+		<Item Name="Init.vi" Type="VI" URL="../Support/Init.vi"/>
+		<Item Name="MainUI.vi" Type="VI" URL="../MainUI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -119,8 +124,11 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="FTDI_Status_Explanation.vi" Type="VI" URL="../FTDI/FTDI_Status_Explanation.vi"/>
+			<Item Name="Message Structure.ctl" Type="VI" URL="../Controls/Message Structure.ctl"/>
 			<Item Name="Operational Modes.ctl" Type="VI" URL="../Controls/Operational Modes.ctl"/>
 			<Item Name="Shutter Data.ctl" Type="VI" URL="../Controls/Shutter Data.ctl"/>
+			<Item Name="Shutter Manual.ctl" Type="VI" URL="../Controls/Shutter Manual.ctl"/>
+			<Item Name="Shutter States.ctl" Type="VI" URL="../Controls/Shutter States.ctl"/>
 			<Item Name="Shutters.ctl" Type="VI" URL="../Controls/Shutters.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -203,10 +211,28 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Controls" Type="Folder"/>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Message Structure.ctl" Type="VI" URL="../Controls/Message Structure.ctl"/>
+			<Item Name="Operational Modes.ctl" Type="VI" URL="../Controls/Operational Modes.ctl"/>
+			<Item Name="Shutter Data.ctl" Type="VI" URL="../Controls/Shutter Data.ctl"/>
+			<Item Name="Shutter Message.ctl" Type="VI" URL="../Controls/Shutter Message.ctl"/>
+			<Item Name="Shutter Modes.ctl" Type="VI" URL="../Controls/Shutter Modes.ctl"/>
+			<Item Name="Shutter States.ctl" Type="VI" URL="../Controls/Shutter States.ctl"/>
+			<Item Name="Shutters.ctl" Type="VI" URL="../Controls/Shutters.ctl"/>
+		</Item>
+		<Item Name="Shutters" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="ExtFlatShutter.vi" Type="VI" URL="../Shutters/RT/ExtFlatShutter.vi"/>
+			<Item Name="LFCSimShutter.vi" Type="VI" URL="../Shutters/RT/LFCSimShutter.vi"/>
+			<Item Name="RT-Shutter-Main.vi" Type="VI" URL="../Shutters/RT/RT-Shutter-Main.vi"/>
+			<Item Name="SciShutter.vi" Type="VI" URL="../Shutters/RT/SciShutter.vi"/>
+			<Item Name="SetShutterModes.vi" Type="VI" URL="../Shutters/RT/SetShutterModes.vi"/>
+			<Item Name="SetShutters.vi" Type="VI" URL="../Shutters/SetShutters.vi"/>
+			<Item Name="SimFlatShutter.vi" Type="VI" URL="../Shutters/RT/SimFlatShutter.vi"/>
+			<Item Name="SolarShutter.vi" Type="VI" URL="../Shutters/RT/SolarShutter.vi"/>
+		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="RTInit.vi" Type="VI" URL="../Support/RTInit.vi"/>
-			<Item Name="ScienceShutter.vi" Type="VI" URL="../Support/ScienceShutter.vi"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
@@ -272,71 +298,12 @@ AddOutputFilter chunkFilter
 				<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
 				<Property Name="cRIOModule.DisableArbitration" Type="Str">false</Property>
 				<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
-				<Property Name="cRIOModule.Initial Line Direction" Type="Str">00000000000000000000000000000000</Property>
-				<Item Name="DIO0" Type="Variable">
+				<Property Name="cRIOModule.Initial Line Direction" Type="Str">00000000000000000000000000001111</Property>
+				<Item Name="DetTrigIn" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">DIO0</Property>
-					<Property Name="Network:BuffSize" Type="Str">50</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">True</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="DIO1" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">DIO1</Property>
-					<Property Name="Network:BuffSize" Type="Str">50</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">True</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="DIO2" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">DIO2</Property>
-					<Property Name="Network:BuffSize" Type="Str">50</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">True</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="DIO3" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">DIO3</Property>
-					<Property Name="Network:BuffSize" Type="Str">50</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">True</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="DIO4" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -346,27 +313,12 @@ AddOutputFilter chunkFilter
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="DIO5" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">DIO5</Property>
-					<Property Name="Network:BuffSize" Type="Str">50</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">True</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
 				<Item Name="DIO6" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -381,7 +333,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO7" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">7</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -396,7 +348,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO8" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">8</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -411,7 +363,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO9" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">9</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -426,7 +378,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO10" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">10</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -441,7 +393,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO11" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">11</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">7</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -456,7 +408,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO12" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">12</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">8</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -471,7 +423,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO13" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">13</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">9</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -486,7 +438,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO14" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">14</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">10</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -501,7 +453,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO15" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">15</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">11</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -516,7 +468,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO16" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">16</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">12</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -531,7 +483,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO17" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">17</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">13</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -546,7 +498,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO18" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">18</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">14</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -561,7 +513,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO19" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">19</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">15</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -576,7 +528,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO20" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">20</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">16</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -591,7 +543,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO21" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">21</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">17</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -606,7 +558,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO22" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">22</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">18</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -621,7 +573,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO23" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">23</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">19</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -636,7 +588,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO24" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">24</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">20</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -651,7 +603,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO25" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">25</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">21</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -666,7 +618,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO26" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">26</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">22</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -681,7 +633,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO27" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">27</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">23</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -696,7 +648,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO28" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">28</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">24</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -711,7 +663,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO29" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">29</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">25</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -726,7 +678,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO30" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">30</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">26</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -741,7 +693,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DIO31" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">31</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">27</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -752,6 +704,86 @@ AddOutputFilter chunkFilter
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="ExpMetFrmIn" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">DIO5</Property>
+					<Property Name="Network:BuffSize" Type="Str">50</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">True</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+				</Item>
+				<Item Name="ExpMetTrigOut" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">DIO3</Property>
+					<Property Name="Network:BuffSize" Type="Str">50</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">True</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+				</Item>
+				<Item Name="ExtFlatMirOut" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">DIO1</Property>
+					<Property Name="Network:BuffSize" Type="Str">50</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">True</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+				</Item>
+				<Item Name="SolarMirOut" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">DIO2</Property>
+					<Property Name="Network:BuffSize" Type="Str">50</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">True</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TharMirOut" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">DIO0</Property>
+					<Property Name="Network:BuffSize" Type="Str">50</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">True</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
 			</Item>
 			<Item Name="Mod3" Type="RIO C Series Module">
@@ -1049,14 +1081,41 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="MainRT.vi" Type="VI" URL="../MainRT.vi"/>
-		<Item Name="Operational Modes.ctl" Type="VI" URL="../Controls/Operational Modes.ctl"/>
 		<Item Name="RT-Variables.lvlib" Type="Library" URL="../Libs/RT-Variables.lvlib"/>
-		<Item Name="SetShutterModes.vi" Type="VI" URL="../SetShutterModes.vi"/>
-		<Item Name="Shutter Data.ctl" Type="VI" URL="../Controls/Shutter Data.ctl"/>
-		<Item Name="Shutter-RT.vi" Type="VI" URL="../Shutter-RT.vi"/>
-		<Item Name="Shutters.ctl" Type="VI" URL="../Controls/Shutters.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="Message Structure.ctl" Type="VI" URL="../Libs/Message Structure.ctl"/>
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
