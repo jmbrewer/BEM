@@ -8,14 +8,14 @@
 	<Property Name="varPersistentID:{0C452FD0-124C-4E15-BEE8-F97F2788FC93}" Type="Ref">/bem-rt/Chassis/Mod4/SimFltSht</Property>
 	<Property Name="varPersistentID:{16C1F841-6673-4B4B-BF3B-71DCA640A85E}" Type="Ref">/bem-rt/Chassis/Mod2/DIO17</Property>
 	<Property Name="varPersistentID:{1BE1F43A-6774-4905-960F-61920CB0A818}" Type="Ref">/bem-rt/Chassis/Mod2/DIO12</Property>
-	<Property Name="varPersistentID:{20CFF22E-5D3E-419A-A9D3-B8C33106ED8A}" Type="Ref">/bem-rt/Chassis/Mod2/TharMirOut</Property>
+	<Property Name="varPersistentID:{20CFF22E-5D3E-419A-A9D3-B8C33106ED8A}" Type="Ref">/bem-rt/Chassis/Mod2/TharMirOut (P1)</Property>
 	<Property Name="varPersistentID:{343BF05B-1182-4FD7-86D5-82E1550E0F18}" Type="Ref">/bem-rt/Chassis/Mod2/DIO29</Property>
 	<Property Name="varPersistentID:{34BB3BA2-5475-45F8-A64A-03AB3CBB3B1F}" Type="Ref">/bem-rt/RT-Variables.lvlib/Update?</Property>
 	<Property Name="varPersistentID:{351933AA-C24E-4CD1-86F3-FE89E8A67460}" Type="Ref">/bem-rt/RT-Variables.lvlib/OpMode-NP</Property>
 	<Property Name="varPersistentID:{36F29883-7C70-4483-A8C3-D79188A94303}" Type="Ref">/bem-rt/Chassis/Mod2/DIO10</Property>
 	<Property Name="varPersistentID:{37BA9FF9-AF33-4218-A687-66C04349E7B9}" Type="Ref">/bem-rt/Chassis/Mod4/LFCSimSht</Property>
 	<Property Name="varPersistentID:{38C479DA-57A8-43FE-888B-BAFF6A35D283}" Type="Ref">/bem-rt/Chassis/Mod2/DIO6</Property>
-	<Property Name="varPersistentID:{3D009E21-5EA0-4C67-B174-2AC967BF5375}" Type="Ref">/bem-rt/Chassis/Mod2/ExtFlatMirOut</Property>
+	<Property Name="varPersistentID:{3D009E21-5EA0-4C67-B174-2AC967BF5375}" Type="Ref">/bem-rt/Chassis/Mod2/ExtFlatMirOut (P2)</Property>
 	<Property Name="varPersistentID:{401C906D-FD16-4179-AA51-1B45CDB1716A}" Type="Ref">/bem-rt/Chassis/Mod2/DIO7</Property>
 	<Property Name="varPersistentID:{43CA40C1-B79A-4FC4-966D-11F81812CE23}" Type="Ref">/bem-rt/Chassis/Mod2/DIO16</Property>
 	<Property Name="varPersistentID:{4DD1AF64-2F20-4BD0-A0B3-3F399FC09067}" Type="Ref">/bem-rt/Chassis/Mod3/DO6</Property>
@@ -36,9 +36,9 @@
 	<Property Name="varPersistentID:{9CC7A64F-662D-4C2D-B4B0-A775A9E2EDED}" Type="Ref">/bem-rt/Chassis/Mod3/DO4</Property>
 	<Property Name="varPersistentID:{A1921D7A-8703-4C28-966D-CD6B28C40CF4}" Type="Ref">/bem-rt/Chassis/Mod2/DIO21</Property>
 	<Property Name="varPersistentID:{A5D40E91-9487-465E-92F4-5FEF8E9094B4}" Type="Ref">/bem-rt/RT-Variables.lvlib/RT-Stop</Property>
-	<Property Name="varPersistentID:{A5E287A0-73F9-4ABC-BE73-578BBE200EBE}" Type="Ref">/bem-rt/Chassis/Mod2/SolarMirOut</Property>
-	<Property Name="varPersistentID:{A732E533-C3D3-419B-8795-A22696F92FE0}" Type="Ref">/bem-rt/Chassis/Mod2/ExpMetTrigOut</Property>
-	<Property Name="varPersistentID:{A77498EE-D2A5-4228-BA44-AF0D417DB7BC}" Type="Ref">/bem-rt/Chassis/Mod2/ExpMetFrmIn</Property>
+	<Property Name="varPersistentID:{A5E287A0-73F9-4ABC-BE73-578BBE200EBE}" Type="Ref">/bem-rt/Chassis/Mod2/SolarMirOut (P3)</Property>
+	<Property Name="varPersistentID:{A732E533-C3D3-419B-8795-A22696F92FE0}" Type="Ref">/bem-rt/Chassis/Mod2/ExpMetTrigOut (J12)</Property>
+	<Property Name="varPersistentID:{A77498EE-D2A5-4228-BA44-AF0D417DB7BC}" Type="Ref">/bem-rt/Chassis/Mod2/ExpMetFrmIn (J15)</Property>
 	<Property Name="varPersistentID:{A9D0A8E1-DB6E-4932-8849-463B4A1A27AC}" Type="Ref">/bem-rt/Chassis/Mod2/DIO18</Property>
 	<Property Name="varPersistentID:{AD16FF8A-6BF2-4C64-90CF-AE50AE3E6F54}" Type="Ref">/My Computer/Libs/UI-Variables.lvlib/UI Stop</Property>
 	<Property Name="varPersistentID:{B13919C1-BCDD-4CBB-9F55-B6442A3ECDA7}" Type="Ref">/bem-rt/Chassis/Mod3/DO5</Property>
@@ -46,7 +46,7 @@
 	<Property Name="varPersistentID:{C149C1E5-C462-441E-8B82-09C804478161}" Type="Ref">/bem-rt/Chassis/Mod2/DIO8</Property>
 	<Property Name="varPersistentID:{C1ECA06C-8677-45E4-9D37-85E97D571DC7}" Type="Ref">/bem-rt/Chassis/Mod2/DIO14</Property>
 	<Property Name="varPersistentID:{C2A510AF-1A19-42EE-AB0D-A45442C77ABC}" Type="Ref">/bem-rt/Chassis/Mod2/DIO27</Property>
-	<Property Name="varPersistentID:{CD87CEF9-362F-4A3D-8A58-13BAD75A804A}" Type="Ref">/bem-rt/Chassis/Mod2/DetTrigIn</Property>
+	<Property Name="varPersistentID:{CD87CEF9-362F-4A3D-8A58-13BAD75A804A}" Type="Ref">/bem-rt/Chassis/Mod2/DetTrigIn (J13)</Property>
 	<Property Name="varPersistentID:{CF7736C5-BD84-4F8C-9FFE-C07F4C206B7C}" Type="Ref">/bem-rt/Chassis/Mod3/SciShtPwr</Property>
 	<Property Name="varPersistentID:{CFA484A1-F2C9-44ED-97E1-9E3DB446C5B6}" Type="Ref">/bem-rt/Chassis/Mod2/DIO26</Property>
 	<Property Name="varPersistentID:{DE94D6D8-0BA6-41D4-96AE-A0F1E9FA1B50}" Type="Ref">/bem-rt/Chassis/Mod2/DIO15</Property>
@@ -307,7 +307,7 @@ AddOutputFilter chunkFilter
 				<Property Name="cRIOModule.DisableArbitration" Type="Str">false</Property>
 				<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 				<Property Name="cRIOModule.Initial Line Direction" Type="Str">00000000000000000000000000001111</Property>
-				<Item Name="DetTrigIn" Type="Variable">
+				<Item Name="DetTrigIn (J13)" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
@@ -713,7 +713,7 @@ AddOutputFilter chunkFilter
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 				</Item>
-				<Item Name="ExpMetFrmIn" Type="Variable">
+				<Item Name="ExpMetFrmIn (J15)" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
@@ -729,7 +729,7 @@ AddOutputFilter chunkFilter
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
-				<Item Name="ExpMetTrigOut" Type="Variable">
+				<Item Name="ExpMetTrigOut (J12)" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
@@ -745,7 +745,7 @@ AddOutputFilter chunkFilter
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
-				<Item Name="ExtFlatMirOut" Type="Variable">
+				<Item Name="ExtFlatMirOut (P2)" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
@@ -761,7 +761,7 @@ AddOutputFilter chunkFilter
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
-				<Item Name="SolarMirOut" Type="Variable">
+				<Item Name="SolarMirOut (P3)" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
@@ -777,7 +777,7 @@ AddOutputFilter chunkFilter
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
-				<Item Name="TharMirOut" Type="Variable">
+				<Item Name="TharMirOut (P1)" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
