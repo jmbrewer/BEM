@@ -78,9 +78,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Calibration" Type="Folder" URL="../Calibration">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Lamp" Type="Folder">
 				<Item Name="Lamp Container.lvclass" Type="LVClass" URL="../Classes/Lamp/Container/Lamp Container.lvclass"/>
@@ -171,8 +168,6 @@
 			<Item Name="Shutter Data.ctl" Type="VI" URL="../Controls/Shutter Data.ctl"/>
 			<Item Name="Shutter States.ctl" Type="VI" URL="../Controls/Shutter States.ctl"/>
 			<Item Name="Shutters.ctl" Type="VI" URL="../Controls/Shutters.ctl"/>
-			<Item Name="TharOpen.vi" Type="VI" URL="../Calibration/TharOpen.vi"/>
-			<Item Name="TharClose.vi" Type="VI" URL="../Calibration/TharClose.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
