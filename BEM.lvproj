@@ -11,7 +11,7 @@
 	<Property Name="varPersistentID:{20CFF22E-5D3E-419A-A9D3-B8C33106ED8A}" Type="Ref">/bem-rt/Chassis/Mod2/TharMirOut</Property>
 	<Property Name="varPersistentID:{343BF05B-1182-4FD7-86D5-82E1550E0F18}" Type="Ref">/bem-rt/Chassis/Mod2/DIO29</Property>
 	<Property Name="varPersistentID:{34BB3BA2-5475-45F8-A64A-03AB3CBB3B1F}" Type="Ref">/bem-rt/RT-Variables.lvlib/Update Shutter</Property>
-	<Property Name="varPersistentID:{351933AA-C24E-4CD1-86F3-FE89E8A67460}" Type="Ref">/bem-rt/RT-Variables.lvlib/OpMode-NP</Property>
+	<Property Name="varPersistentID:{351933AA-C24E-4CD1-86F3-FE89E8A67460}" Type="Ref">/bem-rt/RT-Variables.lvlib/OpMode</Property>
 	<Property Name="varPersistentID:{36F29883-7C70-4483-A8C3-D79188A94303}" Type="Ref">/bem-rt/Chassis/Mod2/DIO10</Property>
 	<Property Name="varPersistentID:{37BA9FF9-AF33-4218-A687-66C04349E7B9}" Type="Ref">/bem-rt/Chassis/Mod4/LFCSimSht</Property>
 	<Property Name="varPersistentID:{38C479DA-57A8-43FE-888B-BAFF6A35D283}" Type="Ref">/bem-rt/Chassis/Mod2/DIO6</Property>
@@ -27,9 +27,11 @@
 	<Property Name="varPersistentID:{6E179CBF-6F11-470E-B7CE-4FD8B44598EB}" Type="Ref">/bem-rt/RT-Variables.lvlib/Sci Exp Time</Property>
 	<Property Name="varPersistentID:{71BD5B62-B391-41F0-BAAD-CE51B2FFB95D}" Type="Ref">/bem-rt/RT-Variables.lvlib/Exposure Counter</Property>
 	<Property Name="varPersistentID:{7548A60A-D755-42E6-85AF-BE9123CE5E3E}" Type="Ref">/bem-rt/Chassis/Mod2/DIO19</Property>
+	<Property Name="varPersistentID:{7882DF23-82A4-466C-B5AA-851479BFA260}" Type="Ref">/My Computer/UI-Variables.lvlib/OpMode</Property>
 	<Property Name="varPersistentID:{78FC7EE0-9591-4D33-B118-822D2C805AA7}" Type="Ref">/bem-rt/Chassis/Mod3/DO7</Property>
 	<Property Name="varPersistentID:{79CD0C98-045A-4CEC-A2ED-4AD211AD313F}" Type="Ref">/bem-rt/Chassis/Mod4/SolarSht</Property>
 	<Property Name="varPersistentID:{7A088893-D4DE-4206-A398-196211CDF61C}" Type="Ref">/bem-rt/Chassis/Mod2/DIO31</Property>
+	<Property Name="varPersistentID:{7D01D339-7275-4515-8991-750EA4B88E44}" Type="Ref">/My Computer/UI-Variables.lvlib/Update Lamp</Property>
 	<Property Name="varPersistentID:{7EFDF6D3-B6B3-4830-9C8F-5E0BBC127182}" Type="Ref">/bem-rt/RT-Variables.lvlib/SimFlt Exp Time</Property>
 	<Property Name="varPersistentID:{807F6E1D-6F8E-41AB-9286-76D3D4CCCD9A}" Type="Ref">/bem-rt/RT-Variables.lvlib/FlipMirror-Control</Property>
 	<Property Name="varPersistentID:{84DDAA2B-EF1B-4AA9-9172-12F1B93F3681}" Type="Ref">/bem-rt/Chassis/Mod2/DIO23</Property>
@@ -38,6 +40,7 @@
 	<Property Name="varPersistentID:{94AD2E5C-62AB-4661-9DD4-D5239F731688}" Type="Ref">/bem-rt/RT-Variables.lvlib/Update Mirror</Property>
 	<Property Name="varPersistentID:{95E494DA-8184-4B2A-A244-C63F56F49421}" Type="Ref">/bem-rt/Chassis/Mod4/DO5</Property>
 	<Property Name="varPersistentID:{95E6CAB7-875F-4BE1-9503-A9FEC0D73D2F}" Type="Ref">/bem-rt/Chassis/Mod2/DIO22</Property>
+	<Property Name="varPersistentID:{9B5B3544-BA46-4080-B660-3DA669407971}" Type="Ref">/My Computer/UI-Variables.lvlib/Lamp-NP</Property>
 	<Property Name="varPersistentID:{9CC7A64F-662D-4C2D-B4B0-A775A9E2EDED}" Type="Ref">/bem-rt/Chassis/Mod3/DO4</Property>
 	<Property Name="varPersistentID:{A1921D7A-8703-4C28-966D-CD6B28C40CF4}" Type="Ref">/bem-rt/Chassis/Mod2/DIO21</Property>
 	<Property Name="varPersistentID:{A5D40E91-9487-465E-92F4-5FEF8E9094B4}" Type="Ref">/bem-rt/RT-Variables.lvlib/RT-Stop</Property>
@@ -45,7 +48,7 @@
 	<Property Name="varPersistentID:{A732E533-C3D3-419B-8795-A22696F92FE0}" Type="Ref">/bem-rt/Chassis/Mod2/ExpMetTrigOut</Property>
 	<Property Name="varPersistentID:{A77498EE-D2A5-4228-BA44-AF0D417DB7BC}" Type="Ref">/bem-rt/Chassis/Mod2/ExpMetFrmIn</Property>
 	<Property Name="varPersistentID:{A9D0A8E1-DB6E-4932-8849-463B4A1A27AC}" Type="Ref">/bem-rt/Chassis/Mod2/DIO18</Property>
-	<Property Name="varPersistentID:{AD16FF8A-6BF2-4C64-90CF-AE50AE3E6F54}" Type="Ref">/My Computer/Libs/UI-Variables.lvlib/UI Stop</Property>
+	<Property Name="varPersistentID:{AD16FF8A-6BF2-4C64-90CF-AE50AE3E6F54}" Type="Ref">/My Computer/UI-Variables.lvlib/UI Stop</Property>
 	<Property Name="varPersistentID:{B13919C1-BCDD-4CBB-9F55-B6442A3ECDA7}" Type="Ref">/bem-rt/Chassis/Mod3/DO5</Property>
 	<Property Name="varPersistentID:{B3D896AF-649A-40CF-900E-E52D5E2D4EE4}" Type="Ref">/bem-rt/RT-Variables.lvlib/FlipMirror-NP</Property>
 	<Property Name="varPersistentID:{BB50E5DF-0A21-4647-BEE0-F8DF04D4C59F}" Type="Ref">/bem-rt/Chassis/Mod2/DIO24</Property>
@@ -57,7 +60,6 @@
 	<Property Name="varPersistentID:{CF7736C5-BD84-4F8C-9FFE-C07F4C206B7C}" Type="Ref">/bem-rt/Chassis/Mod3/SciShtPwr</Property>
 	<Property Name="varPersistentID:{CFA484A1-F2C9-44ED-97E1-9E3DB446C5B6}" Type="Ref">/bem-rt/Chassis/Mod2/DIO26</Property>
 	<Property Name="varPersistentID:{DE94D6D8-0BA6-41D4-96AE-A0F1E9FA1B50}" Type="Ref">/bem-rt/Chassis/Mod2/DIO15</Property>
-	<Property Name="varPersistentID:{E36441E0-7FAE-4741-BF83-F65834EDFC09}" Type="Ref">/My Computer/Libs/UI-Variables.lvlib/Test Trigger</Property>
 	<Property Name="varPersistentID:{E5F215B9-9C74-4944-8B50-7EECA866005A}" Type="Ref">/bem-rt/RT-Variables.lvlib/ExtFlt Exp Time</Property>
 	<Property Name="varPersistentID:{E9EAF1B8-BE38-463F-B6BA-CDC527C5D8D8}" Type="Ref">/bem-rt/Chassis/Mod2/DIO11</Property>
 	<Property Name="varPersistentID:{EC8121E0-4B43-479D-A4FB-61C30FF1A2C0}" Type="Ref">/bem-rt/RT-Variables.lvlib/Solar Exp Time</Property>
@@ -66,6 +68,7 @@
 	<Property Name="varPersistentID:{F594A17D-6BD4-4BE7-BA47-621F45CE524D}" Type="Ref">/bem-rt/Chassis/Mod4/DO6</Property>
 	<Property Name="varPersistentID:{FF1BCF94-AC70-4018-8F16-6D2C55392A5C}" Type="Ref">/bem-rt/RT-Variables.lvlib/Shutter-Control</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -80,27 +83,36 @@
 		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Lamp" Type="Folder">
+				<Item Name="Lamp Container.lvclass" Type="LVClass" URL="../Classes/Lamp/Container/Lamp Container.lvclass"/>
 				<Item Name="Lamp.lvclass" Type="LVClass" URL="../Classes/Lamp/Lamp.lvclass"/>
+				<Item Name="LED.lvclass" Type="LVClass" URL="../Classes/Lamp/LED/LED.lvclass"/>
+				<Item Name="Quartz.lvclass" Type="LVClass" URL="../Classes/Lamp/Quartz/Quartz.lvclass"/>
 				<Item Name="ThAr.lvclass" Type="LVClass" URL="../Classes/Lamp/ThAr/ThAr.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Flip Mirror Manual.ctl" Type="VI" URL="../Controls/Flip Mirror Manual.ctl"/>
+			<Item Name="Lamps.ctl" Type="VI" URL="../Controls/Lamps.ctl"/>
 			<Item Name="Shutter Manual.ctl" Type="VI" URL="../Controls/Shutter Manual.ctl"/>
 		</Item>
 		<Item Name="Flip Mirrors" Type="Folder">
 			<Item Name="Flip Mirror Manual.vi" Type="VI" URL="../Flip Mirrors/UI/Flip Mirror Manual.vi"/>
 		</Item>
-		<Item Name="Libs" Type="Folder">
-			<Item Name="UI-Variables.lvlib" Type="Library" URL="../Libs/UI-Variables.lvlib"/>
-		</Item>
 		<Item Name="Shutters" Type="Folder">
 			<Item Name="Shutter Manual.vi" Type="VI" URL="../Shutters/UI/Shutter Manual.vi"/>
 		</Item>
+		<Item Name="Support" Type="Folder">
+			<Item Name="Init Queues.vi" Type="VI" URL="../Support/Init Queues.vi"/>
+			<Item Name="Lamp.vi" Type="VI" URL="../Support/Lamp.vi"/>
+			<Item Name="UI Message Loop.vi" Type="VI" URL="../Support/UI Message Loop.vi"/>
+			<Item Name="UI-RT Communication.vi" Type="VI" URL="../Support/UI-RT Communication.vi"/>
+			<Item Name="Update Lamp NP.vi" Type="VI" URL="../Lamps/Update Lamp NP.vi"/>
+		</Item>
 		<Item Name="FTDI_Parse_Error_Code.vi" Type="VI" URL="../FTDI/FTDI_Parse_Error_Code.vi"/>
-		<Item Name="Init.vi" Type="VI" URL="../Support/Init.vi"/>
 		<Item Name="MainUI.vi" Type="VI" URL="../MainUI.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+		<Item Name="UI-Variables.lvlib" Type="Library" URL="../Libs/UI-Variables.lvlib"/>
+		<Item Name="Lamps Manual.ctl" Type="VI" URL="../Controls/Lamps Manual.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -140,7 +152,11 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
+			<Item Name="Dequeue Message.vi" Type="VI" URL="../Support/Dequeue Message.vi"/>
 			<Item Name="Enqueue Message.vi" Type="VI" URL="../Support/Enqueue Message.vi"/>
 			<Item Name="Flip Mirrors.ctl" Type="VI" URL="../Controls/Flip Mirrors.ctl"/>
 			<Item Name="FT_Close_Device.vi" Type="VI" URL="../FTDI/FT_Close_Device.vi"/>
@@ -155,6 +171,8 @@
 			<Item Name="Shutter Data.ctl" Type="VI" URL="../Controls/Shutter Data.ctl"/>
 			<Item Name="Shutter States.ctl" Type="VI" URL="../Controls/Shutter States.ctl"/>
 			<Item Name="Shutters.ctl" Type="VI" URL="../Controls/Shutters.ctl"/>
+			<Item Name="TharOpen.vi" Type="VI" URL="../Calibration/TharOpen.vi"/>
+			<Item Name="TharClose.vi" Type="VI" URL="../Calibration/TharClose.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
