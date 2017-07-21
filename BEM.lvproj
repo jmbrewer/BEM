@@ -110,6 +110,7 @@
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="UI-Variables.lvlib" Type="Library" URL="../Libs/UI-Variables.lvlib"/>
 		<Item Name="Lamps Manual.ctl" Type="VI" URL="../Controls/Lamps Manual.ctl"/>
+		<Item Name="TharTest.vi" Type="VI" URL="../TharTest.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -1146,6 +1147,7 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="dummytrigger.vi" Type="VI" URL="../dummytrigger.vi"/>
 		<Item Name="MainRT.vi" Type="VI" URL="../MainRT.vi"/>
 		<Item Name="RT-Variables.lvlib" Type="Library" URL="../Libs/RT-Variables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
