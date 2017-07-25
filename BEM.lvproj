@@ -1119,7 +1119,7 @@ AddOutputFilter chunkFilter
 					<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
 					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">False</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
 					<Property Name="Industrial:PhysicalName" Type="Str">DO0</Property>
 					<Property Name="Network:BuffSize" Type="Str">50</Property>
@@ -1135,7 +1135,7 @@ AddOutputFilter chunkFilter
 					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
 					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">False</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
 					<Property Name="Industrial:PhysicalName" Type="Str">DO1</Property>
 					<Property Name="Network:BuffSize" Type="Str">50</Property>
