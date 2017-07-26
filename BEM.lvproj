@@ -91,6 +91,7 @@
 			<Item Name="Flip Mirror Manual.ctl" Type="VI" URL="../Controls/Flip Mirror Manual.ctl"/>
 			<Item Name="Lamps.ctl" Type="VI" URL="../Controls/Lamps.ctl"/>
 			<Item Name="Shutter Manual.ctl" Type="VI" URL="../Controls/Shutter Manual.ctl"/>
+			<Item Name="Lamps Manual.ctl" Type="VI" URL="../Controls/Lamps Manual.ctl"/>
 		</Item>
 		<Item Name="Flip Mirrors" Type="Folder">
 			<Item Name="Flip Mirror Manual.vi" Type="VI" URL="../Flip Mirrors/UI/Flip Mirror Manual.vi"/>
@@ -100,16 +101,14 @@
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="Init Queues.vi" Type="VI" URL="../Support/Init Queues.vi"/>
-			<Item Name="Lamp.vi" Type="VI" URL="../Support/Lamp.vi"/>
 			<Item Name="UI Message Loop.vi" Type="VI" URL="../Support/UI Message Loop.vi"/>
 			<Item Name="UI-RT Communication.vi" Type="VI" URL="../Support/UI-RT Communication.vi"/>
 			<Item Name="Update Lamp NP.vi" Type="VI" URL="../Lamps/Update Lamp NP.vi"/>
+			<Item Name="FTDI_Parse_Error_Code.vi" Type="VI" URL="../FTDI/FTDI_Parse_Error_Code.vi"/>
 		</Item>
-		<Item Name="FTDI_Parse_Error_Code.vi" Type="VI" URL="../FTDI/FTDI_Parse_Error_Code.vi"/>
 		<Item Name="MainUI.vi" Type="VI" URL="../MainUI.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="UI-Variables.lvlib" Type="Library" URL="../Libs/UI-Variables.lvlib"/>
-		<Item Name="Lamps Manual.ctl" Type="VI" URL="../Controls/Lamps Manual.ctl"/>
 		<Item Name="TharTest.vi" Type="VI" URL="../TharTest.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
