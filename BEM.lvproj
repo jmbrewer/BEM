@@ -105,11 +105,11 @@
 			<Item Name="UI-RT Communication.vi" Type="VI" URL="../Support/UI-RT Communication.vi"/>
 			<Item Name="Update Lamp NP.vi" Type="VI" URL="../Lamps/Update Lamp NP.vi"/>
 			<Item Name="FTDI_Parse_Error_Code.vi" Type="VI" URL="../FTDI/FTDI_Parse_Error_Code.vi"/>
+			<Item Name="Init Variables.vi" Type="VI" URL="../Support/Init Variables.vi"/>
 		</Item>
 		<Item Name="MainUI.vi" Type="VI" URL="../MainUI.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="UI-Variables.lvlib" Type="Library" URL="../Libs/UI-Variables.lvlib"/>
-		<Item Name="TharTest.vi" Type="VI" URL="../TharTest.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -198,7 +198,7 @@
 		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
 		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
 		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
-		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
+		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/home/lvuser/natinst/bin/bemrt.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
 		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
@@ -1146,7 +1146,6 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="dummytrigger.vi" Type="VI" URL="../dummytrigger.vi"/>
 		<Item Name="MainRT.vi" Type="VI" URL="../MainRT.vi"/>
 		<Item Name="RT-Variables.lvlib" Type="Library" URL="../Libs/RT-Variables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
