@@ -100,12 +100,19 @@
 			<Item Name="Shutter Manual.vi" Type="VI" URL="../Shutters/UI/Shutter Manual.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
-			<Item Name="Init Queues.vi" Type="VI" URL="../Support/Init Queues.vi"/>
-			<Item Name="UI Message Loop.vi" Type="VI" URL="../Support/UI Message Loop.vi"/>
-			<Item Name="UI-RT Communication.vi" Type="VI" URL="../Support/UI-RT Communication.vi"/>
 			<Item Name="Update Lamp NP.vi" Type="VI" URL="../Lamps/Update Lamp NP.vi"/>
 			<Item Name="FTDI_Parse_Error_Code.vi" Type="VI" URL="../FTDI/FTDI_Parse_Error_Code.vi"/>
 			<Item Name="Init Variables.vi" Type="VI" URL="../Support/Init Variables.vi"/>
+		</Item>
+		<Item Name="Communication" Type="Folder">
+			<Item Name="UI-RT Communication.vi" Type="VI" URL="../Support/UI-RT Communication.vi"/>
+			<Item Name="UI Message Handler.vi" Type="VI" URL="../Support/UI Message Handler.vi"/>
+			<Item Name="EXPRES Interface.vi" Type="VI" URL="../Support/EXPRES Interface.vi"/>
+			<Item Name="EXPRES Receive Message.vi" Type="VI" URL="../Support/Communication/EXPRES Receive Message.vi"/>
+			<Item Name="EXPRES Parse Message.vi" Type="VI" URL="../Support/Communication/EXPRES Parse Message.vi"/>
+			<Item Name="Create-Obtain RT Queue.vi" Type="VI" URL="../Support/Communication/Create-Obtain RT Queue.vi"/>
+			<Item Name="Create-Obtain UI Queue.vi" Type="VI" URL="../Support/Communication/Create-Obtain UI Queue.vi"/>
+			<Item Name="Init Queues.vi" Type="VI" URL="../Support/Init Queues.vi"/>
 		</Item>
 		<Item Name="MainUI.vi" Type="VI" URL="../MainUI.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
@@ -168,6 +175,7 @@
 			<Item Name="Shutter Data.ctl" Type="VI" URL="../Controls/Shutter Data.ctl"/>
 			<Item Name="Shutter States.ctl" Type="VI" URL="../Controls/Shutter States.ctl"/>
 			<Item Name="Shutters.ctl" Type="VI" URL="../Controls/Shutters.ctl"/>
+			<Item Name="Dummy Lamp.lvclass" Type="LVClass" URL="../Classes/Lamp/Dummy Lamp/Dummy Lamp.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
