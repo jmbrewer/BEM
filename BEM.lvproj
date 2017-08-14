@@ -89,9 +89,11 @@
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Flip Mirror Manual.ctl" Type="VI" URL="../Controls/Flip Mirror Manual.ctl"/>
-			<Item Name="Lamps.ctl" Type="VI" URL="../Controls/Lamps.ctl"/>
+			<Item Name="All Lamps.ctl" Type="VI" URL="../Controls/All Lamps.ctl"/>
 			<Item Name="Shutter Manual.ctl" Type="VI" URL="../Controls/Shutter Manual.ctl"/>
 			<Item Name="Lamps Manual.ctl" Type="VI" URL="../Controls/Lamps Manual.ctl"/>
+			<Item Name="Mirror Data.ctl" Type="VI" URL="../Controls/Mirror Data.ctl"/>
+			<Item Name="Lamp Data.ctl" Type="VI" URL="../Controls/Lamp Data.ctl"/>
 		</Item>
 		<Item Name="Flip Mirrors" Type="Folder">
 			<Item Name="Flip Mirror Manual.vi" Type="VI" URL="../Flip Mirrors/UI/Flip Mirror Manual.vi"/>
@@ -105,6 +107,13 @@
 			<Item Name="Init Variables.vi" Type="VI" URL="../Support/Init Variables.vi"/>
 		</Item>
 		<Item Name="Communication" Type="Folder">
+			<Item Name="Status Messages" Type="Folder">
+				<Item Name="EXPRES Format Flipper Status Message.vi" Type="VI" URL="../Support/Communication/EXPRES Format Flipper Status Message.vi"/>
+				<Item Name="EXPRES Format Lamp Status Message.vi" Type="VI" URL="../Support/Communication/EXPRES Format Lamp Status Message.vi"/>
+				<Item Name="EXPRES Format Shutter Status Message.vi" Type="VI" URL="../Support/Communication/EXPRES Format Shutter Status Message.vi"/>
+				<Item Name="Translate Lamp Data.vi" Type="VI" URL="../Controls/Translate Lamp Data.vi"/>
+				<Item Name="Translate Mirror Data.vi" Type="VI" URL="../Controls/Translate Mirror Data.vi"/>
+			</Item>
 			<Item Name="UI-RT Communication.vi" Type="VI" URL="../Support/UI-RT Communication.vi"/>
 			<Item Name="UI Message Handler.vi" Type="VI" URL="../Support/UI Message Handler.vi"/>
 			<Item Name="EXPRES Interface.vi" Type="VI" URL="../Support/EXPRES Interface.vi"/>
@@ -117,6 +126,7 @@
 		<Item Name="MainUI.vi" Type="VI" URL="../MainUI.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="UI-Variables.lvlib" Type="Library" URL="../Libs/UI-Variables.lvlib"/>
+		<Item Name="Messages.lvlib" Type="Library" URL="../Libs/Messages.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -1190,6 +1200,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Mirror Data.ctl" Type="VI" URL="../Controls/Mirror Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
