@@ -11,7 +11,7 @@
 	<Property Name="varPersistentID:{20CFF22E-5D3E-419A-A9D3-B8C33106ED8A}" Type="Ref">/bem-rt/Chassis/Mod2/TharMirOut</Property>
 	<Property Name="varPersistentID:{343BF05B-1182-4FD7-86D5-82E1550E0F18}" Type="Ref">/bem-rt/Chassis/Mod2/DIO29</Property>
 	<Property Name="varPersistentID:{34BB3BA2-5475-45F8-A64A-03AB3CBB3B1F}" Type="Ref">/bem-rt/RT-Variables.lvlib/Update Shutter</Property>
-	<Property Name="varPersistentID:{351933AA-C24E-4CD1-86F3-FE89E8A67460}" Type="Ref">/bem-rt/RT-Variables.lvlib/OpMode</Property>
+	<Property Name="varPersistentID:{351933AA-C24E-4CD1-86F3-FE89E8A67460}" Type="Ref">/bem-rt/RT-Variables.lvlib/RtOpMode</Property>
 	<Property Name="varPersistentID:{36F29883-7C70-4483-A8C3-D79188A94303}" Type="Ref">/bem-rt/Chassis/Mod2/DIO10</Property>
 	<Property Name="varPersistentID:{37BA9FF9-AF33-4218-A687-66C04349E7B9}" Type="Ref">/bem-rt/Chassis/Mod4/LFCSimSht</Property>
 	<Property Name="varPersistentID:{38C479DA-57A8-43FE-888B-BAFF6A35D283}" Type="Ref">/bem-rt/Chassis/Mod2/DIO6</Property>
@@ -85,6 +85,10 @@
 				<Item Name="LED.lvclass" Type="LVClass" URL="../Classes/Lamp/LED/LED.lvclass"/>
 				<Item Name="Quartz.lvclass" Type="LVClass" URL="../Classes/Lamp/Quartz/Quartz.lvclass"/>
 				<Item Name="ThAr.lvclass" Type="LVClass" URL="../Classes/Lamp/ThAr/ThAr.lvclass"/>
+				<Item Name="LightBox.lvclass" Type="LVClass" URL="../Classes/Lamp/LightBox/LightBox.lvclass"/>
+			</Item>
+			<Item Name="JSON Post" Type="Folder">
+				<Item Name="JSON RPC.lvclass" Type="LVClass" URL="../Classes/JSON RPC/JSON RPC.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Controls" Type="Folder">
@@ -94,6 +98,7 @@
 			<Item Name="Lamps Manual.ctl" Type="VI" URL="../Controls/Lamps Manual.ctl"/>
 			<Item Name="Mirror Data.ctl" Type="VI" URL="../Controls/Mirror Data.ctl"/>
 			<Item Name="Lamp Data.ctl" Type="VI" URL="../Controls/Lamp Data.ctl"/>
+			<Item Name="Shutter Box State.ctl" Type="VI" URL="../Controls/Shutter Box State.ctl"/>
 		</Item>
 		<Item Name="Flip Mirrors" Type="Folder">
 			<Item Name="Flip Mirror Manual.vi" Type="VI" URL="../Flip Mirrors/UI/Flip Mirror Manual.vi"/>
@@ -127,6 +132,8 @@
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="UI-Variables.lvlib" Type="Library" URL="../Libs/UI-Variables.lvlib"/>
 		<Item Name="Messages.lvlib" Type="Library" URL="../Libs/Messages.lvlib"/>
+		<Item Name="tester.vi" Type="VI" URL="../Classes/JSON RPC/tester.vi"/>
+		<Item Name="Shutter Box State.vi" Type="VI" URL="../Shutters/UI/Shutter Box State.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -169,6 +176,10 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 			</Item>
 			<Item Name="Dequeue Message.vi" Type="VI" URL="../Support/Dequeue Message.vi"/>
 			<Item Name="Enqueue Message.vi" Type="VI" URL="../Support/Enqueue Message.vi"/>
@@ -186,12 +197,45 @@
 			<Item Name="Shutter States.ctl" Type="VI" URL="../Controls/Shutter States.ctl"/>
 			<Item Name="Shutters.ctl" Type="VI" URL="../Controls/Shutters.ctl"/>
 			<Item Name="Dummy Lamp.lvclass" Type="LVClass" URL="../Classes/Lamp/Dummy Lamp/Dummy Lamp.lvclass"/>
+			<Item Name="Platinum_MB_serParity.ctl" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/Platinum Serial Modbus/Platinum_MB_serParity.ctl"/>
+			<Item Name="Platinum_MB_serFlowControl.ctl" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/Platinum Serial Modbus/Platinum_MB_serFlowControl.ctl"/>
+			<Item Name="Platinum_MB_serMode.ctl" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/Platinum Serial Modbus/Platinum_MB_serMode.ctl"/>
+			<Item Name="Platinum_MB_SerHandle.ctl" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/Platinum Serial Modbus/Platinum_MB_SerHandle.ctl"/>
+			<Item Name="MB Serial Init.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Init.vi"/>
+			<Item Name="Platinum_MB_SerOpen.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/Platinum Serial Modbus/Platinum_MB_SerOpen.vi"/>
+			<Item Name="Platinum_MB_SerClose.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/Platinum Serial Modbus/Platinum_MB_SerClose.vi"/>
+			<Item Name="Platinum_MB_Register Names.ctl" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/Platinum_MB_Register Names.ctl"/>
+			<Item Name="Platinum_MB_DataType.ctl" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/Platinum_MB_DataType.ctl"/>
+			<Item Name="Platinum_MB_Register Definition.ctl" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/Platinum_MB_Register Definition.ctl"/>
+			<Item Name="Platinum_MB Protocol.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/Platinum_MB Protocol.vi"/>
+			<Item Name="MB Modbus Command.ctl" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Modbus Command.ctl"/>
+			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Modbus Data Unit.ctl"/>
+			<Item Name="MB Decode Data.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Decode Data.vi"/>
+			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Modbus Command to Data Unit.vi"/>
+			<Item Name="MB Serial String to Modbus Data Unit.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial String to Modbus Data Unit.vi"/>
+			<Item Name="MB LRC-8.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB LRC-8.vi"/>
+			<Item Name="MB CRC-16.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB CRC-16.vi"/>
+			<Item Name="MB Serial Receive.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Receive.vi"/>
+			<Item Name="MB Serial Modbus Data Unit to String.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Modbus Data Unit to String.vi"/>
+			<Item Name="MB Serial Transmit.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Transmit.vi"/>
+			<Item Name="MB Serial Master Query.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query.vi"/>
+			<Item Name="MB Serial Master Query Write Multiple Registers (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query Write Multiple Registers (poly).vi"/>
+			<Item Name="MB Serial Master Query Write Single Register (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query Write Single Register (poly).vi"/>
+			<Item Name="MB Serial Master Query Write Single Coil (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query Write Single Coil (poly).vi"/>
+			<Item Name="MB Serial Master Query Write Multiple Coils (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query Write Multiple Coils (poly).vi"/>
+			<Item Name="MB Serial Master Query Read Input Registers (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query Read Input Registers (poly).vi"/>
+			<Item Name="MB Serial Master Query Read Holding Registers (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query Read Holding Registers (poly).vi"/>
+			<Item Name="MB Serial Master Query Read Exception Status (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query Read Exception Status (poly).vi"/>
+			<Item Name="MB Serial Master Query Read Discrete Inputs (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query Read Discrete Inputs (poly).vi"/>
+			<Item Name="MB Serial Master Query Read Coils (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query Read Coils (poly).vi"/>
+			<Item Name="MB Serial Master Query (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query (poly).vi"/>
+			<Item Name="Platinum_MB_SerWrite.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/Platinum Serial Modbus/Platinum_MB_SerWrite.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="bem-rt" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">bem-rt</Property>
-		<Property Name="alias.value" Type="Str">172.28.139.53</Property>
+		<Property Name="alias.value" Type="Str">bem-rt.lowell.edu</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,7743;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">7743</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -215,7 +259,7 @@
 		<Property Name="target.IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
 		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
-		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
+		<Property Name="target.RTDebugWebServerHTTPPort" Type="UInt">8001</Property>
 		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/home/lvuser/natinst/bin/bemrt.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
@@ -234,33 +278,33 @@
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
 		<Property Name="target.server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
-		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
+		<Property Name="target.WebServer.Config" Type="Str"># Web server configuration file.
+# Generated by LabVIEW 16.0
+# 11/7/2017 5:52:08 PM
 
-NI.ServerName default
-DocumentRoot "$LVSERVER_DOCROOT"
+#
+# Global Directives
+#
+NI.AddLVRouteVars
 TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
-DirectoryIndex index.htm
-WorkerLimit 10
-InactivityTimeout 60
-
+LimitWorkers 10
 LoadModulePath "$LVSERVER_MODULEPATHS"
 LoadModule LVAuth lvauthmodule
 LoadModule LVRFP lvrfpmodule
+Listen 8000
 
 #
-# Pipeline Definition
+# Directives that apply to the default server
 #
-
+NI.ServerName default
+DocumentRoot "$LVSERVER_DOCROOT"
+InactivityTimeout 60
 SetConnector netConnector
-
 AddHandler LVAuth
 AddHandler LVRFP
-
 AddHandler fileHandler ""
-
 AddOutputFilter chunkFilter
-
-
+DirectoryIndex index.htm
 </Property>
 		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
@@ -286,10 +330,10 @@ AddOutputFilter chunkFilter
 					<Item Name="SciShutt.lvclass" Type="LVClass" URL="../Classes/Shutter/Sci/SciShutt.lvclass"/>
 				</Item>
 				<Item Name="UniStable" Type="Folder">
+					<Item Name="CalShutt.lvclass" Type="LVClass" URL="../Classes/Shutter/Solar/CalShutt.lvclass"/>
 					<Item Name="ExtFlatShutt.lvclass" Type="LVClass" URL="../Classes/Shutter/ExtFlat/ExtFlatShutt.lvclass"/>
 					<Item Name="LFCSimShutt.lvclass" Type="LVClass" URL="../Classes/Shutter/LFCSim/LFCSimShutt.lvclass"/>
 					<Item Name="SimFlatShutt.lvclass" Type="LVClass" URL="../Classes/Shutter/SimFlat/SimFlatShutt.lvclass"/>
-					<Item Name="SolarShutt.lvclass" Type="LVClass" URL="../Classes/Shutter/Solar/SolarShutt.lvclass"/>
 					<Item Name="UniStableShutter.lvclass" Type="LVClass" URL="../Classes/Shutter/UniStable/UniStableShutter.lvclass"/>
 				</Item>
 				<Item Name="Container.lvclass" Type="LVClass" URL="../Classes/Shutter/Container/Container.lvclass"/>

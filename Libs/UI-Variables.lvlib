@@ -8,12 +8,16 @@
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:SingleWriter" Type="Str">True</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">2</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$3TA!!!"9!A!!!!!!(!"*!6!!'#F2J&lt;75A5X2B&lt;8!!!!R!)1:4&gt;'&amp;U&gt;8-!!!V!#A!(6'FN:7^V&gt;!!31&amp;!!!Q!!!!%!!A25;%&amp;S!!!11&amp;!!!Q!!!!%!!A.-251!&amp;%"1!!-!!!!"!!)'586B=H2[!!!31&amp;!!!Q!$!!1!"16-97VQ=Q!"!!9!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">All Lamps.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Lamp Data.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../Controls/All Lamps.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../Controls/Lamp Data.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%[.A%!!"9!A!!!!!!(!"*!6!!'#F2J&lt;75A5X2B&lt;8!!!!R!)1:4&gt;'&amp;U&gt;8-!!!V!#A!(6'FN:7^V&gt;!!M!0%!!!!!!!!!!1V-97VQ)%2B&gt;'%O9X2M!":!5!!$!!!!!1!#"%RB&lt;8!!!#Y!]1!!!!!!!!!"$5RB&lt;8!A2'&amp;U93ZD&gt;'Q!'%"1!!-!!!!"!!)'586B=H2[!!!K!0%!!!!!!!!!!1V-97VQ)%2B&gt;'%O9X2M!"2!5!!$!!!!!1!#!UR&amp;2!!M!0%!!!!!!!!!!1V"&lt;'QA4'&amp;N=(-O9X2M!":!5!!$!!-!"!!&amp;"5RB&lt;8"T!!%!"A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="OpMode" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>

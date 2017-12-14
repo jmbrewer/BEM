@@ -32,4 +32,9 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="Flip Mirror Status Message.ctl" Type="VI" URL="../../Controls/Flip Mirror Status Message.ctl"/>
+	<Item Name="Lamp Message Struct.ctl" Type="VI" URL="../../Controls/Messages/Lamp Message Struct.ctl"/>
+	<Item Name="Lamp Status Message.ctl" Type="VI" URL="../../Controls/Lamp Status Message.ctl"/>
+	<Item Name="Mirror Message Struct.ctl" Type="VI" URL="../../Controls/Messages/Mirror Message Struct.ctl"/>
+	<Item Name="Shutter Status Message.ctl" Type="VI" URL="../../Controls/Shutter Status Message.ctl"/>
 </Library>

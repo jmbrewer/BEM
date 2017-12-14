@@ -39,11 +39,13 @@
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="numTypedefs" Type="UInt">2</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Flip Mirrors.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Mirror Data.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../Controls/Flip Mirrors.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$)R!!!!"9!A!!!!!!'!!R!)1:4&gt;'&amp;U&gt;8-!!"*!6!!'#F2J&lt;75A5X2B&lt;8!!!""!5!!#!!!!!164&lt;WRB=A!31&amp;!!!A!!!!%(28BU2GRB&gt;!!11&amp;!!!A!!!!%%6'B"=A!!-1$R!!!!!!!!!!%12GRJ=#".;8*S&lt;X*T,G.U&lt;!!91&amp;!!!Q!#!!-!"!&gt;.;8*S&lt;X*T!!%!"1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../Controls/Mirror Data.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%='!%!!"9!A!!!!!!'!!R!)1:4&gt;'&amp;U&gt;8-!!"*!6!!'#F2J&lt;75A5X2B&lt;8!!!#Y!]1!!!!!!!!!"$UVJ=H*P=C"%982B,G.U&lt;!!71&amp;!!!A!!!!%(28BU2GRB&gt;!!M!0%!!!!!!!!!!1^.;8*S&lt;X)A2'&amp;U93ZD&gt;'Q!&amp;%"1!!)!!!!""&amp;2I18)!!#Q!]1!!!!!!!!!"$UVJ=H*P=C"%982B,G.U&lt;!!51&amp;!!!A!!!!%&amp;5W^M98)!-1$R!!!!!!!!!!%12GRJ=#".;8*S&lt;X*T,G.U&lt;!!91&amp;!!!Q!#!!-!"!&gt;.;8*S&lt;X*T!!%!"1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="FlipMirror-NP" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -53,11 +55,13 @@
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="numTypedefs" Type="UInt">2</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">Flip Mirrors.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Mirror Data.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../Controls/Flip Mirrors.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$)R!!!!"9!A!!!!!!'!!R!)1:4&gt;'&amp;U&gt;8-!!"*!6!!'#F2J&lt;75A5X2B&lt;8!!!""!5!!#!!!!!164&lt;WRB=A!31&amp;!!!A!!!!%(28BU2GRB&gt;!!11&amp;!!!A!!!!%%6'B"=A!!-1$R!!!!!!!!!!%12GRJ=#".;8*S&lt;X*T,G.U&lt;!!91&amp;!!!Q!#!!-!"!&gt;.;8*S&lt;X*T!!%!"1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../Controls/Mirror Data.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%='!%!!"9!A!!!!!!'!!R!)1:4&gt;'&amp;U&gt;8-!!"*!6!!'#F2J&lt;75A5X2B&lt;8!!!#Y!]1!!!!!!!!!"$UVJ=H*P=C"%982B,G.U&lt;!!71&amp;!!!A!!!!%(28BU2GRB&gt;!!M!0%!!!!!!!!!!1^.;8*S&lt;X)A2'&amp;U93ZD&gt;'Q!&amp;%"1!!)!!!!""&amp;2I18)!!#Q!]1!!!!!!!!!"$UVJ=H*P=C"%982B,G.U&lt;!!51&amp;!!!A!!!!%&amp;5W^M98)!-1$R!!!!!!!!!!%12GRJ=#".;8*S&lt;X*T,G.U&lt;!!91&amp;!!!Q!#!!-!"!&gt;.;8*S&lt;X*T!!%!"1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="LFCSim Exp Time" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
@@ -85,7 +89,17 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="OpMode" Type="Variable">
+	<Item Name="RT-Stop" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="RtOpMode" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
@@ -96,16 +110,6 @@
 		<Property Name="typedefName1" Type="Str">Operational Modes.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../Controls/Operational Modes.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$JZ1!!!"9!A!!!!!!"!.-!]1!!!!!!!!!"&amp;5^Q:8*B&gt;'FP&lt;G&amp;M)%VP:'6T,G.U&lt;!#V1"9!&amp;!.49WE(5W.J,5R'1Q64&lt;WRB=AF4&lt;WRB=CV-2E-$4%:$"UR'1SV4;7U)4%:$,5*P&gt;'A%6'B"=AB5;%&amp;S,5R'1Q2'&lt;'&amp;U"U6Y&gt;%:M981,28BU2GRB&gt;#V4;7U-28BU2GRB&gt;#V#&lt;X2I!V&amp;U?A:&amp;?(22&gt;(I+28BU582[,6.J&lt;1N&amp;?(22&gt;(IN1G^U;!2%98*L"EVB&lt;H6B&lt;!.0:G9!!""0='6S982J&lt;WZB&lt;#".&lt;W2F!!!"!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="RT-Stop" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Sci Exp Time" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
