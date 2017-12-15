@@ -128,8 +128,10 @@
 			<Item Name="Create-Obtain UI Queue.vi" Type="VI" URL="../Support/Communication/Create-Obtain UI Queue.vi"/>
 			<Item Name="Init Queues.vi" Type="VI" URL="../Support/Init Queues.vi"/>
 		</Item>
+		<Item Name="Enviro" Type="Folder" URL="../Enviro">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="MainUI.vi" Type="VI" URL="../MainUI.vi"/>
-		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="UI-Variables.lvlib" Type="Library" URL="../Libs/UI-Variables.lvlib"/>
 		<Item Name="Messages.lvlib" Type="Library" URL="../Libs/Messages.lvlib"/>
 		<Item Name="tester.vi" Type="VI" URL="../Classes/JSON RPC/tester.vi"/>
@@ -180,6 +182,15 @@
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
+				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
+				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
+				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
+				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 			<Item Name="Dequeue Message.vi" Type="VI" URL="../Support/Dequeue Message.vi"/>
 			<Item Name="Enqueue Message.vi" Type="VI" URL="../Support/Enqueue Message.vi"/>
@@ -230,6 +241,18 @@
 			<Item Name="MB Serial Master Query Read Coils (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query Read Coils (poly).vi"/>
 			<Item Name="MB Serial Master Query (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query (poly).vi"/>
 			<Item Name="Platinum_MB_SerWrite.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/Platinum Serial Modbus/Platinum_MB_SerWrite.vi"/>
+			<Item Name="DBConnect.vi" Type="VI" URL="../Telem/DBConnect.vi"/>
+			<Item Name="DBGetModuleSensors.vi" Type="VI" URL="../Telem/DBGetModuleSensors.vi"/>
+			<Item Name="WaitForBytes.vi" Type="VI" URL="../Support/WaitForBytes.vi"/>
+			<Item Name="GetTimestamp.vi" Type="VI" URL="../Support/GetTimestamp.vi"/>
+			<Item Name="DBInsertReadingVal.vi" Type="VI" URL="../Telem/DBInsertReadingVal.vi"/>
+			<Item Name="DB Readings Columns.ctl" Type="VI" URL="../Controls/DB Readings Columns.ctl"/>
+			<Item Name="DB Readings.ctl" Type="VI" URL="../Controls/DB Readings.ctl"/>
+			<Item Name="DBConnect.vi" Type="VI" URL="../Enviro/FloMeter/DBConnect.vi"/>
+			<Item Name="DBInsertReadingVal.vi" Type="VI" URL="../Enviro/FloMeter/DBInsertReadingVal.vi"/>
+			<Item Name="DBConnect.vi" Type="VI" URL="../Enviro/Temperature/DBConnect.vi"/>
+			<Item Name="ReadChannel.vi" Type="VI" URL="../Enviro/Temperature/ReadChannel.vi"/>
+			<Item Name="DBInsertReadingVal.vi" Type="VI" URL="../Enviro/Temperature/DBInsertReadingVal.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
