@@ -241,18 +241,14 @@
 			<Item Name="MB Serial Master Query Read Coils (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query Read Coils (poly).vi"/>
 			<Item Name="MB Serial Master Query (poly).vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/NI Modbus.llb/MB Serial Master Query (poly).vi"/>
 			<Item Name="Platinum_MB_SerWrite.vi" Type="VI" URL="../../../Desktop/platinum-modbus-driver/omega_engineering-platinum-modbus-driver-671bd10261c3/Labview Source Code/Platinum Serial Modbus/Platinum_MB_SerWrite.vi"/>
-			<Item Name="DBConnect.vi" Type="VI" URL="../Telem/DBConnect.vi"/>
 			<Item Name="DBGetModuleSensors.vi" Type="VI" URL="../Telem/DBGetModuleSensors.vi"/>
 			<Item Name="WaitForBytes.vi" Type="VI" URL="../Support/WaitForBytes.vi"/>
 			<Item Name="GetTimestamp.vi" Type="VI" URL="../Support/GetTimestamp.vi"/>
 			<Item Name="DBInsertReadingVal.vi" Type="VI" URL="../Telem/DBInsertReadingVal.vi"/>
 			<Item Name="DB Readings Columns.ctl" Type="VI" URL="../Controls/DB Readings Columns.ctl"/>
 			<Item Name="DB Readings.ctl" Type="VI" URL="../Controls/DB Readings.ctl"/>
-			<Item Name="DBConnect.vi" Type="VI" URL="../Enviro/FloMeter/DBConnect.vi"/>
-			<Item Name="DBInsertReadingVal.vi" Type="VI" URL="../Enviro/FloMeter/DBInsertReadingVal.vi"/>
-			<Item Name="DBConnect.vi" Type="VI" URL="../Enviro/Temperature/DBConnect.vi"/>
 			<Item Name="ReadChannel.vi" Type="VI" URL="../Enviro/Temperature/ReadChannel.vi"/>
-			<Item Name="DBInsertReadingVal.vi" Type="VI" URL="../Enviro/Temperature/DBInsertReadingVal.vi"/>
+			<Item Name="DBConnect.vi" Type="VI" URL="../Telem/DBConnect.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
