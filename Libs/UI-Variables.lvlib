@@ -29,7 +29,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Operational Modes.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../Controls/Operational Modes.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$JZ1!!!"9!A!!!!!!"!.-!]1!!!!!!!!!"&amp;5^Q:8*B&gt;'FP&lt;G&amp;M)%VP:'6T,G.U&lt;!#V1"9!&amp;!.49WE(5W.J,5R'1Q64&lt;WRB=AF4&lt;WRB=CV-2E-$4%:$"UR'1SV4;7U)4%:$,5*P&gt;'A%6'B"=AB5;%&amp;S,5R'1Q2'&lt;'&amp;U"U6Y&gt;%:M981,28BU2GRB&gt;#V4;7U-28BU2GRB&gt;#V#&lt;X2I!V&amp;U?A:&amp;?(22&gt;(I+28BU582[,6.J&lt;1N&amp;?(22&gt;(IN1G^U;!2%98*L"EVB&lt;H6B&lt;!.0:G9!!""0='6S982J&lt;WZB&lt;#".&lt;W2F!!!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$R\1!!!"9!A!!!!!!"!.M!]1!!!!!!!!!"&amp;5^Q:8*B&gt;'FP&lt;G&amp;M)%VP:'6T,G.U&lt;!#^1"9!&amp;1.49WE(5W.J,5R'1Q64&lt;WRB=AF4&lt;WRB=CV-2E-$4%:$"UR'1SV4;7U)4%:$,5*P&gt;'A%6'B"=AB5;%&amp;S,5R'1Q2'&lt;'&amp;U"U6Y&gt;%:M981,28BU2GRB&gt;#V4;7U-28BU2GRB&gt;#V#&lt;X2I!V&amp;U?A:&amp;?(22&gt;(I+28BU582[,6.J&lt;1N&amp;?(22&gt;(IN1G^U;!2%98*L"EVB&lt;H6B&lt;!.0:G9)2GRB&gt;#V4;7U!%%^Q:8*B&gt;'FP&lt;G&amp;M)%VP:'5!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="UI Stop" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
